@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --background-color: #c5c5c5;
+}
+
+
+/* navbar */
+#navbar{
+    height: 80px;
+    width: 100%;  
+    background: var(--background-color) 
+}
+
+.heading{
+    height: 70px;
+    width: 50%;
+    background: var(--background-color);
+    margin: 60px auto;
+}
+
+
+
+
+/* float container */
+#float-container{
+    height: 90vh;  
+}
+
+#float-container .right,
+#float-container .left{
+    height: 100%;
+    width: calc(50% - 10px);
+    background: var(--background-color);
+    float: left;
+}
+
+#float-container .left{
+    margin-right: 20px;
+}
+
+
+
+/* section 2 boxes */
+#heading-2{
+    width: 60%;
+}
+
+#box-container{
+    height: 85vh;
+    padding-inline: 50px;
+}
+
+#box-container .boxes{
+    height: 250px;
+    width: 250px;
+    background: var(--background-color);
+    float: left;
+    margin: 10px;
+}
+
+
+
+/* cards section  */
+#heading-3{
+    width: 70%
+}
+
+#card-container{
+    /* height: 110vh; */
+    min-height: 125vh;
+    background: var(--background-color);
+    padding: 100px 70px;
+}
+
+#card-container .card{
+    height: 92vh;
+    width: 26vw;
+    background: white;
+    float: left;
+    margin-inline: 20px;
+    padding: 30px;
+}
+
+#card-container .card>*{
+    background: var(--background-color);
+    margin-bottom: 25px;
+}
+
+#card-container .card .sm-heading{
+    height: 40px;
+}
+
+#card-container .card div{
+    height: 40%;
+}
+
+
+/* form container */
+#heading-4{
+    width: 30%;
+}
+
+#form-container{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 180px;
+}
+
+#form-container .input{
+    height: 70px; 
+    margin-bottom: 20px;
+     background: var(--background-color)
+}
+
+#form-container .textarea{
+    height: 250px;
+    background: var(--background-color);
+}
+
+#form-container .buttons{
+    height: auto;
+    margin: 40px 0;
+}
+#form-container .buttons div{
+    width: calc(50% - 10px);
+    height: 70px;
+    background: var(--background-color);
+    float: left;
+}
+
+#form-container .buttons div:first-child{
+    margin-right: 20px;
+}
+
+
+
+/* footer */
+footer{
+    clear: both;
+    height: 300px;
+    background: var(--background-color);
+    padding: 30px
+}
+
+footer div{
+    height: 100%;;
+    width: calc(50% - 15px);
+    background: white;
+    float: left
+}
+
+footer div:first-child{
+    margin-right: 30px;
+}
