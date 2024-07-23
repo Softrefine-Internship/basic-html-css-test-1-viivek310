@@ -37,11 +37,11 @@
     height: 100%;
     width: calc(50% - 10px);
     background: var(--background-color);
-    float: left;
+    float: right;
 }
 
 #float-container .left{
-    margin-right: 20px;
+    float: left;
 }
 
 
@@ -64,7 +64,12 @@
     margin: 10px;
 }
 
-
+#box-container .left-boxes,
+#box-container .right-boxes{
+    clear: both;
+    width: fit-content;
+    margin: auto;
+}
 
 /* cards section  */
 #heading-3{
@@ -131,11 +136,12 @@
     width: calc(50% - 10px);
     height: 70px;
     background: var(--background-color);
-    float: left;
+    float: right;
 }
 
 #form-container .buttons div:first-child{
     margin-right: 20px;
+    float: left;
 }
 
 
